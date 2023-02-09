@@ -10,3 +10,5 @@ git branch
 
 To push new commits to the new branch one has to use:
 git push --set-upstream origin NAMEOFTHEBRANCH
+
+### I will no more put a descriptions of git commands as a remainder. Probably I should, but for a purpose of this training I won't.
