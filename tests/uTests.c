@@ -9,14 +9,14 @@
 
 /* Variables for holding values of each test case for function add() */
 unsigned short add_testVerdict[NUM_OF_TCS];
-double add_val1[NUM_OF_TCS]     = {-DBL_MAX,    -1.0,    0.0,   1.0,    DBL_MAX,    -1.0,               1.0,    1.0,    1.0, 1.0};
-double add_val2[NUM_OF_TCS]     = {-1.0,            1.0,     1.0,   1.0,    1.0,        -DBL_MAX,       -1.0,   0.0,    1.0, DBL_MAX};
-double add_retVal[NUM_OF_TCS]   = {-DBL_MAX,    0.0,     1.0,   2.0,    DBL_MAX,    -DBL_MAX,       0.0,    1.0,    2.0, DBL_MAX};
+double add_val1[NUM_OF_TCS]     = {-DBL_MAX,    -1.0,    0.0,   1.0,    DBL_MAX,    -1.0,           1.0,    1.0,    1.0,    1.0};
+double add_val2[NUM_OF_TCS]     = {-1.0,        1.0,     1.0,   1.0,    1.0,        -DBL_MAX,       -1.0,   0.0,    1.0,    DBL_MAX};
+double add_retVal[NUM_OF_TCS]   = {-DBL_MAX,    0.0,     1.0,   2.0,    DBL_MAX,    -DBL_MAX,       0.0,    1.0,    2.0,    DBL_MAX};
 
 /* Variables for holding values of each test case for function divide() */
-double divide_val1[NUM_OF_TCS] = {-DBL_MAX, -1.0, 0.0, 1.0, DBL_MAX, 1.0, 1.0, 1.0, 1.0};
-double divide_val2[NUM_OF_TCS] = {1.0, 1.0, 1.0, 1.0, 1.0, -DBL_MAX, -1.0, 0.0, DBL_MAX};
-double divide_retVal[NUM_OF_TCS] = {-DBL_MAX, -1.0, 0.0, 1.0, DBL_MAX, -0.0, -1.0, 0.0, 0.0};
+double divide_val1[NUM_OF_TCS]      = {-DBL_MAX,    -1.0,   0.0,    1.0,    DBL_MAX,    1.0,        1.0,    1.0,    1.0};
+double divide_val2[NUM_OF_TCS]      = {1.0,         1.0,    1.0,    1.0,    1.0,        -DBL_MAX,   -1.0,   0.0,    DBL_MAX};
+double divide_retVal[NUM_OF_TCS]    = {-DBL_MAX,    -1.0,   0.0,    1.0,    DBL_MAX,    -0.0,       -1.0,   0.0,    0.0};
 unsigned short divide_testVerdict[NUM_OF_TCS];
 
 int main(void)
