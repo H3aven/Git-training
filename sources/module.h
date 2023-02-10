@@ -1,5 +1,7 @@
 #include <math.h>
 
+#define epsilon 1e-6
+
 double add(double, double);
 double substract(double, double);
 double multiply(double, double);
@@ -25,10 +27,10 @@ double multiply(double num1, double num2)
 
 double divide(double num1, double num2)
 {
-    double retval = num1 / num2;
-    if (retval == NAN)
+    double retval = 0.0;
+    if (fabs(num2) > epsilon)
     {
-        retval = 0.0;
+        retval = num1 / num2;
     }
     return retval;
 }
